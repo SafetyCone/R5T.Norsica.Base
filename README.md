@@ -1,0 +1,2 @@
+# R5T.Norsica.Base
+A base library for the Norisca dotnet CLI functionality (IDotnetCommandLineOperator).
