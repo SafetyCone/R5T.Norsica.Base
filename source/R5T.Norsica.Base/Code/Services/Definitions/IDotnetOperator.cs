@@ -8,5 +8,6 @@ namespace R5T.Norsica
     /// </summary>
     public interface IDotnetOperator
     {
+        void CreateNewSolutionFile(string solutionDirectoryPath, string solutionName);
     }
 }
