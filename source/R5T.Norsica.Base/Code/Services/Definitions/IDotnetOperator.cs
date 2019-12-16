@@ -9,5 +9,6 @@ namespace R5T.Norsica
     public interface IDotnetOperator
     {
         void CreateNewSolutionFile(string solutionDirectoryPath, string solutionName);
+        void CreateNewProjectFile(string projectTemplateShortName, string projectDirectoryPath, string projectName);
     }
 }
