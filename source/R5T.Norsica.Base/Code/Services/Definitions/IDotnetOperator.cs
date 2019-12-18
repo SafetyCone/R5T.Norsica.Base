@@ -10,5 +10,7 @@ namespace R5T.Norsica
     {
         void CreateNewSolutionFile(string solutionDirectoryPath, string solutionName);
         void CreateNewProjectFile(string projectTemplateShortName, string projectDirectoryPath, string projectName);
+
+        void AddProjectFileToSolutionFile(string solutionFilePath, string projectFilePath);
     }
 }
