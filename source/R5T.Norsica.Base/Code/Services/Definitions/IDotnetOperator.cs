@@ -1,12 +1,15 @@
 ﻿using System;
 
+using R5T.T0064;
+
 
 namespace R5T.Norsica
 {
     /// <summary>
     /// An operator that performs the same services as the "dotnet" executable.
     /// </summary>
-    public interface IDotnetOperator
+    [ServiceDefinitionMarker]
+    public interface IDotnetOperator : IServiceDefinition
     {
         void AddProjectFileToSolutionFile(string solutionFilePath, string projectFilePath);
 
